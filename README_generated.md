@@ -1,46 +1,27 @@
-<!-- This template was created following The Markdown Guide - https://www.markdownguide.org/ -->
+<!-- Generated README.md Template -->
 
-<!-- If you are editing this README.md on VS Code, please highlight and replace the following keywords enclosed in backticks (``) using:
-* MacOS: CMD + Shift + L
-* Windows: CRTL + Shift + L
-
-GitHub Username: `richardguarnieri`
-GitHub Repository: `professional-README-generator`
-Your Name: `Richard Guarnieri`
-Email: `richard.gm@outlook.com`
-LinkedIn Username: `rguarnieri`
-Twitter Username: `ric_guarnieri`
-Project Title: `Professional README.md Generator`
-Project Description: `A README.md generator for your projects!`
--->
-
-<!-- Please also update the following links -->
 [logo]: ./img/logo.png
-[application-image]: ./img/app-image.webp
-[application-url]: https://example.com/
+[application-image]: ./img/app-image.png
+[application-url]: A
 
 <div id="home"><div> 
-
-<!-- Badges / Shields -->
-<!-- These were created using https://shields.io/ - feel free to replace / create yours by modifying links below: -->
-
 <div align="center">
     <a href="https://github.com/richardguarnieri/professional-README-generator/graphs/contributors">
         <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/richardguarnieri/professional-README-generator?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/professional-README-generator/network/members">
+        <a href="https://github.com/richardguarnieri/professional-README-generator/network/members">
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/richardguarnieri/professional-README-generator?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/professional-README-generator/stargazers">
+        <a href="https://github.com/richardguarnieri/professional-README-generator/stargazers">
         <img alt="GitHub stars" src="https://img.shields.io/github/stars/richardguarnieri/professional-README-generator?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/professional-README-generator/issues">
+        <a href="https://github.com/richardguarnieri/professional-README-generator/issues">
         <img alt="GitHub issues" src="https://img.shields.io/github/issues/richardguarnieri/professional-README-generator?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/professional-README-generator/blob/main/LICENSE">
-        <img alt="GitHub license" src="https://img.shields.io/github/license/richardguarnieri/professional-README-generator?label=license&style=for-the-badge">
+        <a href="https://github.com/richardguarnieri/professional-README-generator/blob/main/LICENSE">
+        <img alt="GitHub license" src="https://img.shields.io/badge/License-MIT License-informational?style=for-the-badge">
     <a>
-     <a href="https://github.com/richardguarnieri/professional-README-generator/commits/main">
+        <a href="https://github.com/richardguarnieri/professional-README-generator/commits/main">
         <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/richardguarnieri/professional-README-generator?style=for-the-badge">
     <a>
     <a href="https://www.linkedin.com/in/rguarnieri/">
@@ -56,9 +37,9 @@ Project Description: `A README.md generator for your projects!`
     <a href="https://github.com/richardguarnieri/professional-README-generator">
         <img src="./img/logo.png" alt="Logo" width="300" height="auto">
     </a>
-    <h1 align="center">Professional README.md Generator</h1>
+    <h1 align="center">Generated README.md</h1>
     <div>
-        A README.md generator for your projects!
+        A generated README.md example!
         <br>
         <a href="https://github.com/richardguarnieri/professional-README-generator">
             <strong>Explore Documentation</strong>
@@ -88,9 +69,6 @@ Project Description: `A README.md generator for your projects!`
 * [Credits and Acknowledgments](#credits-and-acknowledgments)
 * [Features](#features)
 * [Tests](#tests)
-* [Miscellaneous](#miscellaneous)
-    * [User Story](#user-story)
-    * [Acceptance Criteria](#acceptance-criteria)
 <br>
 
 
@@ -99,12 +77,7 @@ Project Description: `A README.md generator for your projects!`
 
 [![Application Image][application-image]][application-url]
 
-Use this section to provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer should **never** be "because it was a homework assignment!")
-- What problem does it solve?
-- What did you learn?
+A
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -114,10 +87,6 @@ Use this section to list the technologies used in the project - examples:
 * [HTML](https://html.spec.whatwg.org/)
 * [CSS](https://www.w3.org/TR/CSS/#css)
 * [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-* [SASS](https://sass-lang.com/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Node.js](https://nodejs.org/en/)
-* [React.js](https://reactjs.org/)
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -134,20 +103,14 @@ Use this section to list the prerequisites to run the application.
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Installation
-Use this section to describe what are the steps required to install your project. Provide a step-by-step description of how to get the development environment running.
+A
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 
 <!-- How to Use -->
 ## How to Use
-Use this section to provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `img` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
+A
 
 _For more examples, please refer to the [Documentation][documentation-url]._
 
@@ -156,24 +119,14 @@ _For more examples, please refer to the [Documentation][documentation-url]._
 
 <!-- Contribuiting -->
 ## Contributing
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-**Example of this README.md Contributing message:**
-
-Contributions are much welcomed! If you have suggestions to make this application better, please fork the repo and create a pull request. 
-
-You can also open an issue [here][github-issues-url] and tag it with the **"enhancement"** label.
+A
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 
 <!-- License -->
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-**Example of this README.md License message:**
-
-This project is licensed under the terms of the MIT license. 
+This project is licensed under the terms of the MIT License. 
 
 See `LICENSE` for more information.
 
@@ -184,7 +137,7 @@ See `LICENSE` for more information.
 ## Contact
 Richard Guarnieri: richard.gm@outlook.com · LinkedIn: [rguarnieri][linkedin-url] · Twitter: [@ric_guarnieri][twitter-url]
 
-Application URL: [https://example.com/][application-url]
+Application URL: [A][application-url]
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
@@ -209,44 +162,9 @@ If you followed tutorials, include links to those here as well.
 
 <!-- Tests -->
 ## Tests
-**Optional:** Feel free to go the extra mile and write tests for your application. Then provide examples on how to run them here.
+a
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Miscellaneous -->
-## Miscellaneous
-**Optional:** Use this section to disclose any miscellaneous information about the project.
-### User Story
-```
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-### Acceptance Criteria
-```
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
 
 <!-- References, Links and Images -->
 <!-- Badges / Shields Styles -->
