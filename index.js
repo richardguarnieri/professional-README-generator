@@ -2,8 +2,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateREADME = require('./readmeGenerator')
 
-const basicLength = 5;
-const projectLength = 600;
+const basicLength = 1;
+const projectLength = 1;
 
 const githubLicenses = [
     'None',
