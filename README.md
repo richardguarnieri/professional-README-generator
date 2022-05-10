@@ -16,8 +16,7 @@ Project Description: `A README.md generator for your projects!`
 
 <!-- Please also update the following links -->
 [logo]: ./img/logo.png
-[application-image]: ./img/app-image.webp
-[application-url]: https://example.com/
+[application-image]: ./img/app-image.png
 
 <div id="home"><div> 
 
@@ -85,9 +84,6 @@ Project Description: `A README.md generator for your projects!`
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Credits and Acknowledgments](#credits-and-acknowledgments)
-* [Features](#features)
-* [Tests](#tests)
 * [Miscellaneous](#miscellaneous)
     * [User Story](#user-story)
     * [Acceptance Criteria](#acceptance-criteria)
@@ -97,53 +93,113 @@ Project Description: `A README.md generator for your projects!`
 <!-- The Project -->
 ## The Project
 
-[![Application Image][application-image]][application-url]
+![Application Image][application-image]
 
-Use this section to provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is a command-line application that will easily generate a README.md template, allowing creators to allocate more time to working on the project itself rather than on building README files. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer should **never** be "because it was a homework assignment!")
-- What problem does it solve?
-- What did you learn?
+The project idea was driven by the huge amount of time invested in building README.md for individual projects, which after some time gets repetitive and most of us can agree time would be better allocated elsewhere. This problem makes for a quick automation via Node.js
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Technology Stack
-Use this section to list the technologies used in the project - examples:
-
-* [HTML](https://html.spec.whatwg.org/)
-* [CSS](https://www.w3.org/TR/CSS/#css)
-* [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
-* [SASS](https://sass-lang.com/)
-* [Tailwind CSS](https://tailwindcss.com/)
 * [Node.js](https://nodejs.org/en/)
-* [React.js](https://reactjs.org/)
+* [inquirer](https://www.npmjs.com/package/inquirer)
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 
 <!-- Getting Started -->
 ## Getting Started
-Use this section to explain how to get the application started - this includes the prerequisites and the installation sections. Feel free to add more sections as needed such as testing, deployment, etc.
+To get started you will need a couple of things - clear explanation of this below:
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Prerequisites
-Use this section to list the prerequisites to run the application.
+[Node.js](https://nodejs.org/en/) as we will need it to install the [inquirer](https://www.npmjs.com/package/inquirer) NPM package to execute the application.
+
+The application will run on the command-line, meaning this will be the only requirement.
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 ### Installation
-Use this section to describe what are the steps required to install your project. Provide a step-by-step description of how to get the development environment running.
+In order to get started, we must first install Node.js - on macOS I prefer to install it using the Homebrew package manager and on Windows using the Node.js homepage download section.
+
+**On macOS:**
+1. To install Homebrew on macOS, browse to [Homebrew's official website](https://brew.sh/) and copy the link displayed on the page on the macOS terminal. At the time of writing, this is the command: 
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. Once Homebrew installation is complete, type the following command to install Node.js and NPM:
+```shell
+brew install node
+```
+
+3. Once the installation finishes, confirm that you successfully installed Node.js by checking its version:
+```shell
+node -v
+```
+
+**On Windows:**
+1. In a web browser, navigate to https://nodejs.org/en/download/. Click the Windows Installer button to download the latest default version. At the time of writing, the latest LTS version is 16.15.0.
+
+2. Execute the installer to install Node.js
+
+3. Once the installation finishes, confirm that you successfully installed Node.js by checking its version:
+```shell
+node -v
+```
 
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 
 <!-- How to Use -->
 ## How to Use
-Use this section to provide instructions and examples for use. Include screenshots as needed.
+First, clone this repo via HTTPS in your local computer - feel free to use any storage destination / folder of your choosing. On macOS / Windows, open the CLI (Command Line Interface) and type the following command (ensure you are located in the exact directory where you want to clone the repo):
 
-To add a screenshot, create an `img` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+```shell
+git clone https://github.com/richardguarnieri/professional-README-generator.git
+```
+
+After the repo has sucessfully cloned, navigate to the repo using the cd (chage directory) command:
+```shell
+cd professional-README-generator/
+``` 
+
+Once inside the professional-README-generator directory, install the necessary node pacakges to run the application - in order to do so, pls type on the CLI the following command:
+```shell
+npm install
+```
+Above command will install the [inquirer](https://www.npmjs.com/package/inquirer) NPM package along all its dependencies in a newly generated folder within the professional-README-generator directory called node_modules/
+
+Once installation finishes, we are clear to execute the application. To do so, run the index.js file typing in the CLI the following command:
+```shell
+node index.js
+```
+
+After execution, the program will begin a series of 17 questions.
+
+Answers to questions 1 to 11 are required to be longer than 5 characters (except 5 and 6) and answers to questions 12 - 16 (except 15) are required to be longer than 600 characters. The questions are:
+
+1. What is your GitHub username? (required):
+1. What is your GitHub repository name? (required):
+1. What is your name? (full name) (required):
+1. What is your email address? (required):
+1. What is your LinkedIn username?:
+1. What is your Twitter username?:
+1. What is your project title? (required):
+1. Please write a brief (no more than 60 characters) project subtitle (required):
+1. Please write the relative path of your project image/logo (e.g. ./img/logo.png) (required):
+1. Please write the relative path of the application image (e.g. ./img/app-image.png) (required):
+1. Please write the application URL (e.g. https://example.com/) (required):
+1. Provide a short description explaining the what, why, and how of your project (required):
+1. What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running (required):
+1. Provide instructions and examples for use (required):
+1. Please provide instructions on how other developers can contribute to the project (required):
+1. Go the extra mile and write tests for your application. Then provide examples on how to run them here (required):
+1. Please choose a license for your application (required):
+
+Once you sucessfully answer all the questions, the automated **README_generated.md** file will be generated and appear in the same directory.
 
 ```md
 ![alt text](assets/images/screenshot.png)
@@ -156,10 +212,6 @@ _For more examples, please refer to the [Documentation][documentation-url]._
 
 <!-- Contribuiting -->
 ## Contributing
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-**Example of this README.md Contributing message:**
-
 Contributions are much welcomed! If you have suggestions to make this application better, please fork the repo and create a pull request. 
 
 You can also open an issue [here][github-issues-url] and tag it with the **"enhancement"** label.
@@ -169,10 +221,6 @@ You can also open an issue [here][github-issues-url] and tag it with the **"enha
 
 <!-- License -->
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-**Example of this README.md License message:**
-
 This project is licensed under the terms of the MIT license. 
 
 See `LICENSE` for more information.
@@ -184,39 +232,11 @@ See `LICENSE` for more information.
 ## Contact
 Richard Guarnieri: richard.gm@outlook.com · LinkedIn: [rguarnieri][linkedin-url] · Twitter: [@ric_guarnieri][twitter-url]
 
-Application URL: [https://example.com/][application-url]
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Credits and Acknowledgments -->
-## Credits and Acknowledgments
-Use this section to list your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Features -->
-## Features
-**Optional:** If your project has a lot of features, list them here.
-
-<p align="right"> - <a href="#home">Return to Home</a></p>
-
-
-<!-- Tests -->
-## Tests
-**Optional:** Feel free to go the extra mile and write tests for your application. Then provide examples on how to run them here.
-
 <p align="right"> - <a href="#home">Return to Home</a></p>
 
 
 <!-- Miscellaneous -->
 ## Miscellaneous
-**Optional:** Use this section to disclose any miscellaneous information about the project.
 ### User Story
 ```
 AS A developer
