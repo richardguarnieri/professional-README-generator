@@ -201,9 +201,9 @@ Answers to questions 1 to 11 are required to be longer than 5 characters (except
 
 Once you sucessfully answer all the questions, the automated **README_generated.md** file will be generated and appear in the same directory.
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+**If you'd like, you can also check this youtube walkthrough below that further explains how to use the app in less than 5 minutes:**
+
+[![Application Image](./img/video-thumbnail.png)](https://www.youtube.com/watch?v=IxaZtMH1J-o)
 
 _For more examples, please refer to the [Documentation][documentation-url]._
 

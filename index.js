@@ -2,8 +2,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateREADME = require('./readmeGenerator')
 
-const basicLength = 1;
-const projectLength = 1;
+const basicLength = 5;
+const projectLength = 600;
 
 const githubLicenses = [
     'None',
@@ -49,7 +49,7 @@ inquirer.prompt([
         if (!input || input.length < basicLength) {console.log('\n Please enter the relative path of your project image/logo!')} else {return true}
     }},
     {type: 'input', name: 'applicationImg', message: '10) Please write the relative path of the application image (e.g. ./img/app-image.png) (required - if skipped, it will automatically choose the following default message in gray):',
-    default: './img/logo.png', validate(input){
+    default: './img/app-image.png', validate(input){
         if (!input || input.length < basicLength) {console.log('\n Please enter the relative path of your application image!')} else {return true}
     }},
     {type: 'input', name: 'applicationUrl', message: '11) Please write the application URL (e.g. https://example.com/) (required):', validate(input){
