@@ -78,9 +78,7 @@ You can also open an issue [here][github-issues-url] and tag it with the **"enha
     {type: 'list', name: 'projectLicense', message: '17) Please choose a license for your application (required):', choices: githubLicenses}
 // a readme.md generator for your multiple and sweet projects!
 ]).then(answers => {
-    console.log(answers)
     const readme = generateREADME(answers)
-    console.log(readme)
     fs.writeFile('README_generated.md', readme, error => {
         error ? console.log(error) : console.log('README_generated.md sucessfully created!')
     })
