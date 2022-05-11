@@ -203,7 +203,7 @@ Once you sucessfully answer all the questions, the automated **README_generated.
 
 **If you'd like, you can also check this youtube walkthrough below that further explains how to use the app in less than 5 minutes:**
 
-[![Application Image](./img/video-thumbnail.png)](https://www.youtube.com/watch?v=IxaZtMH1J-o)
+[![Application Image](./img/video-thumbnail.png)](https://youtu.be/TK0h61uGRzI)
 
 _For more examples, please refer to the [Documentation][documentation-url]._
 
